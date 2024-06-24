@@ -38,7 +38,7 @@ input[type="number"] {
 }
 
 .texto-medio-azul {
-  color: var(--Light-Blue, #1875E8);
+  color: var(--Light-Blue, #9713a6);
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
@@ -46,7 +46,7 @@ input[type="number"] {
 }
 
 .conteudo-principal {
-  filter: drop-shadow(0px 0px 70px rgba(2, 189, 255, 0.40));
+  filter: drop-shadow(0px 0px 70px rgba(225, 28, 243, 0.5));
   min-height: 100%;
   padding: 5rem 6.5rem;
   
@@ -54,11 +54,11 @@ input[type="number"] {
   grid-template-columns: 1.375fr 1fr;
   column-gap: 5rem;
 
-  background: white url('./assets/oculos.png') no-repeat bottom left;
+  background: white url('./assets/oculos.png') no-repeat bottom right;
   background-size: auto 40%;
 
   position: relative;
-  background-position: left bottom -40px;
+  background-position: right bottom -40px;
 }
 
 .grafismo-azul {
@@ -79,7 +79,7 @@ input[type="number"] {
 }
 
 .texto-azul {
-  color: #1875E8;
+  color: #9713a6;
 }
 
 .formulario {
@@ -101,7 +101,7 @@ input[type="number"] {
   height: 3.5rem;
   padding: 1rem;
   border-radius: 0.5rem;
-  border: 1px solid var(--Light-Blue, #1875E8);
+  border: 1px solid var(--Light-Blue, #9713a6);
 
   color: var(--Void, #01080E);
   font-family: Inter;
@@ -121,7 +121,7 @@ input[type="number"] {
   align-items: center;
   gap: 0.625rem;
   border-radius: 0rem 0.5rem 0.5rem 0rem;
-  border: 1px solid var(--Light-Blue, #1875E8);
+  border: 1px solid var(--Light-Blue, #9713a6);
   cursor: pointer;
 }
 
@@ -137,7 +137,7 @@ input[type="number"] {
   padding: 1rem;
   width: 4.5rem;
   border-radius: 0.5rem;
-  border: 1px solid var(--Light-Blue, #1875E8);
+  border: 1px solid var(--Light-Blue, #9713a6);
 
   color: var(--Void, #01080E);
   font-family: Inter;
@@ -167,8 +167,8 @@ input[type="number"] {
 }
 
 .botao-adicionar {
-  background: var(--Light-Blue, #1875E8);
-  box-shadow: 0px 0px 20px 0px rgba(24, 117, 232, 0.50);
+  background: var(--Light-Blue, #9713a6);
+  box-shadow: 0px 0px 20px 0px rgba(225, 28, 243, 0.5);
 
   color: var(--Branco, #FFF);
   font-size: 1.5rem;
@@ -202,7 +202,7 @@ input[type="number"] {
 }
 
 .carrinho__titulo {
-  color: var(--Light-Blue, #1875E8);
+  color: var(--Light-Blue, #9713a6);
   font-family: Inter;
   font-size: 1.5rem;
   font-style: normal;
